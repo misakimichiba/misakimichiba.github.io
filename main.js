@@ -26,7 +26,7 @@ gsap.utils.toArray(".cardCont").forEach(function (card) {
       start: "30% center",
       end: "70% center",
       scrub: true,
-      markers: true,
+      markers: false,
       pin: ".cardCont",
     },
   });
@@ -68,7 +68,7 @@ let tl2 = gsap.timeline({
     start: "0% center",
     end: "90% center",
     scrub: true,
-    markers: true,
+    markers: false,
     pin: false,
   },
 });
@@ -88,7 +88,7 @@ let tl3 = gsap.timeline({
     start: "0% center",
     end: "15% center",
     scrub: true,
-    markers: true,
+    markers: false,
     pin: false,
   },
 });
