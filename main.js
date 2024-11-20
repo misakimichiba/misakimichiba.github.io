@@ -100,7 +100,7 @@ var tltext = gsap.timeline({repeat: -1});
 
 tltext.to("#text-animation", {
   duration: 3,
-  text: "A final year computer science student",
+  text: "A Computer Science fresh graduate",
   ease: "none",
 }).to("#text-animation", {
   duration: 2,
@@ -128,7 +128,7 @@ tltext.to("#text-animation", {
   ease: "none",
 }).to("#text-animation", {
   duration: 3,
-  text: "-------------------------------------",
+  text: "-------------------------------",
   ease: "none",
 });
 
