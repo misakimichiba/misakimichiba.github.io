@@ -4,10 +4,10 @@
 }
 
 /* General */
-/* body {
+body {
   overflow-x: hidden;
   overflow-y: hidden;
-} */
+}
 
 section {
   margin: 5vw 0;
@@ -274,5 +274,5 @@ button {
 
 /* End Section */
 #end-section {
-  height: 100vh !important;
+  height: 50vh !important;
 }
