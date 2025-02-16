@@ -136,7 +136,7 @@ button {
 
 .go-down {
   font-size: 3vw;
-  padding: 10% 0;
+  padding: 5% 0;
 }
 
 /* About Section */
@@ -259,8 +259,6 @@ button {
 .projects-box {
   border-radius: 1vw;
   border-style: solid;
-  width: 25vw;
-  height: 30vw;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -273,19 +271,40 @@ button {
 }
 
 .projects-box img {
-  object-fit: cover;
-  width: 25vw;
-  height: 10vw;
+  max-height: 25%;
+  max-width: 50%;
+  /* width: 25vw;
+  height: 10vw; */
 }
 
 /* Skills Section */
 #skills-section {
   margin-top: 40vw;
-  height: 100vh;
+  height: 50vh;
+  text-align: center;
 }
 
-#skills-section .section-title {
+.skills-container {
+  gap: 1vw;
+  border-radius: 1vw;
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+}
+
+/* Education Section */
+#education-section {
   text-align: center;
+}
+
+.education-container {
+  
 }
 
 /* End Section */
