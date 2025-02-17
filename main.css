@@ -260,15 +260,15 @@ button {
 }
 
 .projects-box {
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding: 2vw;
   border-radius: 1vw;
   border-style: solid;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
+  row-gap: 1vw;
 }
 
 .projects-box h3, .projects-box p {
@@ -276,7 +276,7 @@ button {
 }
 
 .projects-box img {
-  max-height: 25%;
+  max-height: 30%;
   max-width: 50%;
   border-radius: 5%;
   border-style: solid;
@@ -311,13 +311,13 @@ button {
 .experience-container {
   border-radius: 1vw;
   border-style: solid;
-  padding: 2vw;
+  padding: 2vw 5vw;
   margin-left: 7.5vw;
   margin-right: 7.5vw;
   margin-bottom: 2vw;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  grid-template-columns: 0.75fr 1fr;
+  align-items: baseline;
 }
 
 .experience-container img {
