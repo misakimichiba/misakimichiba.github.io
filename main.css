@@ -367,5 +367,6 @@ button {
 /* End Section */
 #end-section {
   text-align: center;
-  height: 40vh !important;
+  height: 10vh !important;
+  padding-bottom: 45vh;
 }
