@@ -43,7 +43,7 @@ h3 {
   font-family: var(--ff-header);
 }
 
-p{
+p, li{
   font-size: 18px;
   font-family: var(--ff-normal);
 }
@@ -249,14 +249,19 @@ button {
 .projects-container {
   display: grid;
   justify-items: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
   padding-top: 5vw;
   padding-bottom: 5vw;
   row-gap: 5vw;
+  column-gap: 2vw;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
 .projects-box {
+  padding-left: 2vw;
+  padding-right: 2vw;
   border-radius: 1vw;
   border-style: solid;
   display: flex;
@@ -273,13 +278,13 @@ button {
 .projects-box img {
   max-height: 25%;
   max-width: 50%;
-  /* width: 25vw;
-  height: 10vw; */
+  border-radius: 5%;
+  border-style: solid;
 }
 
 /* Skills Section */
 #skills-section {
-  margin-top: 40vw;
+  margin-top: 80vw;
   height: 50vh;
   text-align: center;
 }
@@ -298,17 +303,69 @@ button {
   justify-content: center;
 }
 
-/* Education Section */
-#education-section {
+/* Experience Section */
+#experience-section {
   text-align: center;
 }
 
+.experience-container {
+  border-radius: 1vw;
+  border-style: solid;
+  padding: 2vw;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
+  margin-bottom: 2vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.experience-container img {
+  max-width: 7.5vw;
+  max-height: 7.5vw;
+  border-radius: 1vw;
+}
+
+.experience-container li {
+  padding-bottom: 2vw;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.experience-container a {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  text-decoration: none;
+  font-family: var(--ff-normal);
+  cursor: pointer;
+}
+
+.experience-container a:hover {
+  opacity: 0.75;
+}
+
+/* Education Section */
+#education-section {
+  text-align: center;
+  padding-bottom: 25vh;
+}
+
 .education-container {
-  
+  border-radius: 1vw;
+  border-style: solid;
+  padding: 2vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-bottom: 2vw;
+  display: grid;
+}
+
+.education-container h2 {
+  margin-bottom: 0;
 }
 
 /* End Section */
 #end-section {
   text-align: center;
-  height: 25vh !important;
+  height: 40vh !important;
 }

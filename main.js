@@ -120,6 +120,14 @@ tltext.to("#text-animation", {
   ease: "none",
 }).to("#text-animation", {
   duration: 2,
+  text: "------------------------------------------------",
+  ease: "none",
+}).to("#text-animation", {
+  duration: 3,
+  text: "A lifelong student who wants to learn everything",
+  ease: "none",
+}).to("#text-animation", {
+  duration: 2,
   text: "------------------",
   ease: "none",
 }).to("#text-animation", {
