@@ -125,7 +125,6 @@ button {
 }
 
 .scroll-down {
-  width: 100vw;
   height: 50vh;
   text-align: center;
 }
@@ -369,4 +368,322 @@ button {
   text-align: center;
   height: 10vh !important;
   padding-bottom: 45vh;
+}
+
+/* Responsive Section */
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+  section {
+    padding: 3vw 5vw;
+  }
+
+  /* Intro section */
+
+  #intro-section {
+    height: 50vh;
+  }
+
+  .scroll-down {
+    width: auto;
+  }
+
+  /* Bottom navigation bar */
+
+  .menu {
+    height: 5vh;
+  }
+
+  .menu .menu-inner {
+    height: 100%;
+    width: 75%;
+  }
+
+  .menu .menu-item a {
+    font-size: 3.5vh;
+  }
+
+  /* Projects section */
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Skills section */
+  #skills-section {
+    margin-top: 105vh;
+    height: 35vh;
+  }
+
+  /* Experience section */
+  #experience-section {
+    height: 60vh;
+  }
+
+  .experience-container {
+    align-items: center;
+  }
+
+  /* Education section */
+  #education-section {
+    height: 60vh;
+    padding-bottom: 0;
+  }
+
+  /* End section */
+  #end-section {
+    padding-bottom: 35vh;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* Intro section */
+
+  #intro-section {
+    height: 100vh;
+  }
+
+  /* Menu section */
+  .menu {
+    height: 10vh;
+  }
+
+  .menu .menu-inner {
+    height: 100%;
+    width: 75%;
+  }
+
+  .menu .menu-item a {
+    font-size: 7.5vh;
+  }
+
+  /* Skills section */
+
+  #skills-section {
+    margin-top: 485vh;
+    height: 35vh;
+  }
+  
+  /* Experience section */
+  #experience-section {
+    margin-top: 50vh;
+  }
+
+  /* Education section */
+  #education-section {
+    margin-top: 85vh;
+  }
+
+  /* End section */
+  #end-section {
+    margin-top: 100vh;
+    padding-bottom: 70vh;
+  }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 768px) {
+  
+  section {
+    padding: 3vw 8vw;
+  }
+
+  /* Intro section */
+
+  #intro-section {
+    height: 50vh;
+  }
+
+  .scroll-down {
+    width: auto;
+  }
+
+  /* Bottom navigation bar */
+
+  .menu {
+    height: 5vh;
+  }
+
+  .menu .menu-inner {
+    height: 100%;
+    width: 75%;
+  }
+
+  .menu .menu-item a {
+    font-size: 3.5vh;
+  }
+
+  /* Projects section */
+  .projects-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Skills section */
+  #skills-section {
+    margin-top: 140vh;
+    height: 35vh;
+  }
+
+  /* Experience section */
+  #experience-section {
+    height: 60vh;
+  }
+
+  .experience-container {
+    align-items: center;
+  }
+
+  /* Education section */
+  #education-section {
+    height: 60vh;
+    padding-bottom: 0;
+  }
+
+  /* End section */
+  #end-section {
+    padding-bottom: 35vh;
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Landscape)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+  
+  /* CSS */
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  section {
+    padding: 7.5vw 10vw;
+  }
+
+  /* Intro section */
+
+  #intro-section {
+    padding-top: 5vh;
+    height: 90vh;
+  }
+
+  form span {
+    font-size: 7.5vw;
+  }
+
+  .scroll-down h1 {
+    font-size: 7.5vw;
+  }
+
+  .scroll-down {
+    width: auto;
+  }
+
+  #point-down {
+    margin-top: 5vh;
+    font-size: 15vw;
+  }
+
+  /* Bottom navigation bar */
+
+  .menu {
+    height: 10vh;
+  }
+
+  .menu .menu-inner {
+    height: 100%;
+    width: 75%;
+  }
+
+  .menu .menu-item a {
+    font-size: 3.5vh;
+  }
+
+  /* Projects section */
+  .projects-container {
+    grid-template-columns: 1fr;
+    row-gap: 5vh;
+  }
+
+  .projects-box {
+    row-gap: 2vh;
+  }
+
+  /* Skills section */
+  #skills-section {
+    margin-top: 375vh;
+    height: 65vh;
+  }
+
+  /* Experience section */
+  #experience-section {
+    height: 120vh;
+  }
+
+  .experience-container {
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+
+  .experience-container ul {
+    padding: 0 0 0 20px;
+  }
+
+  .experience-container li {
+    text-align: left;
+  }
+
+  /* Education section */
+  #education-section {
+    height: 80vh;
+    padding-bottom: 0;
+  }
+
+  .education-container {
+    margin-bottom: 3vh;
+  }
+
+  .education-container h2 {
+    font-size: 28px;
+  }
+
+  /* End section */
+  #end-section {
+    padding-bottom: 50vh;
+  }
+  
 }
