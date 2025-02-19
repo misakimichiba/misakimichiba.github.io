@@ -645,18 +645,27 @@ button {
 
   /* Skills section */
   #skills-section {
-    margin-top: 375vh;
-    height: 65vh;
+    margin-top: 535vh;
+    height: 70vh;
+  }
+
+  .skills-container button {
+    font-size: 5.5vw;
   }
 
   /* Experience section */
   #experience-section {
-    height: 120vh;
+    height: 175vh;
   }
 
   .experience-container {
     align-items: center;
     grid-template-columns: 1fr;
+  }
+
+  .experience-container img {
+    max-width: 20vw;
+    max-height: 20vw;
   }
 
   .experience-container ul {
@@ -669,7 +678,7 @@ button {
 
   /* Education section */
   #education-section {
-    height: 80vh;
+    height: 105vh;
     padding-bottom: 0;
   }
 
@@ -678,12 +687,12 @@ button {
   }
 
   .education-container h2 {
-    font-size: 28px;
+    font-size: 25px;
   }
 
   /* End section */
   #end-section {
-    padding-bottom: 50vh;
+    padding-bottom: 75vh;
   }
   
 }
