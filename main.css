@@ -597,8 +597,16 @@ button {
   /* Intro section */
 
   #intro-section {
-    padding-top: 5vh;
-    height: 90vh;
+    padding-top: 2vh;
+    height: 100vh;
+  }
+
+  #intro-section h1 {
+    font-size: 40px;
+  }
+
+  #intro-section h2 {
+    font-size: 22.5px;
   }
 
   form span {
@@ -645,7 +653,7 @@ button {
 
   /* Skills section */
   #skills-section {
-    margin-top: 535vh;
+    margin-top: clamp(3350px, 3550px, 3750px);
     height: 70vh;
   }
 
@@ -655,7 +663,7 @@ button {
 
   /* Experience section */
   #experience-section {
-    height: 175vh;
+    height: clamp(1000px, 1250px, 1500px);
   }
 
   .experience-container {
