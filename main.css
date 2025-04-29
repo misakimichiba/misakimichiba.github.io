@@ -283,7 +283,7 @@ button {
 
 /* Skills Section */
 #skills-section {
-  margin-top: 80vw;
+  margin-top: 120vw;
   height: 50vh;
   text-align: center;
 }
@@ -345,6 +345,7 @@ button {
 
 /* Education Section */
 #education-section {
+  margin-top: 50vh;
   text-align: center;
   padding-bottom: 25vh;
 }
@@ -492,7 +493,7 @@ button {
 
   /* Education section */
   #education-section {
-    margin-top: 85vh;
+    margin-top: 100vh;
   }
 
   /* End section */
@@ -663,7 +664,7 @@ button {
 
   /* Experience section */
   #experience-section {
-    height: clamp(1000px, 1250px, 1500px);
+    height: clamp(2000px, 2250px, 2500px);
   }
 
   .experience-container {
