@@ -100,15 +100,15 @@ var tltext = gsap.timeline({repeat: -1});
 
 tltext.to("#text-animation", {
   duration: 3,
-  text: "An aspiring fullstack developer",
+  text: "An aspiring ✨Everything✨ Developer",
   ease: "none",
 }).to("#text-animation", {
   duration: 2,
-  text: "-----------------------------",
+  text: "------------------------",
   ease: "none",
 }).to("#text-animation", {
   duration: 3,
-  text: "A Computer Science Fresh Grad",
+  text: "Art and Writing Hobbyist",
   ease: "none",
 }).to("#text-animation", {
   duration: 2,
